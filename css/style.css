@@ -2,6 +2,10 @@
 @import url("font.css");
 @import url("header.css");
 @import url("visual.css");
+@import url("service.css");
+@import url("about.css");
+@import url("business.css");
+@import url("footer.css");
 *{
     margin: 0;
     padding: 0;
@@ -42,3 +46,26 @@ body{
     margin: 0 auto;
     background-color: antiquewhite;
   }
+/* gotop */
+.gotop{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 9999;
+    width: 60px;
+    height: 60px;
+    background-color: #3056a1;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 28px;
+    opacity: 0;
+}
+.gotop.active{
+    visibility: visible;
+    opacity: 1;
+}
+.gotop.active-footer{
+
+}
